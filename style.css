@@ -1,0 +1,24 @@
+#field{
+    width: 320px;
+    height: 320px;
+    box-sizing: content-box;
+    border: 1px solid black;
+    margin:0 auto;
+    margin-top: 100px;
+}
+.chess-block{
+    width: 40px;
+    height: 40px;
+    float:left;
+}
+.bg-black{
+    background: black;
+}
+.active{
+    background-image: url('https://image.flaticon.com/icons/png/512/36/36189.png');
+    background-color: orange;
+    background-size: contain;
+}
+.green{
+    background-color: green;
+}
